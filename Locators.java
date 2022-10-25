@@ -31,6 +31,7 @@ public class Locators {
 		driver.findElement(By.xpath("//form/input[3]")).sendKeys("9645157893");
 		driver.findElement(By.cssSelector(".reset-pwd-btn")).click();
 		System.out.println(driver.findElement(By.cssSelector("p[class='infoMsg']")).getText());
+		driver.findElement(By.xpath("//button[@class='ghost']")).click();
 
 	}
 
